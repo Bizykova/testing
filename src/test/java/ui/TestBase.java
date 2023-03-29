@@ -27,19 +27,4 @@ public class TestBase {
         Configuration.timeout = 6000;
     }
 
-//    @BeforeAll
-//    @DisplayName("Инициализируем плагин Allure-Selenide")
-//    static void init(){
-//        SelenideLogger.addListener("allure",new AllureSelenide());
-//        Configuration.remote="http://85.119.145.3:4444/wd/hub/";
-//       // Configuration.browser="firefox";
-//        Configuration.browser="chrome";
-//        //Configuration.browserVersion="95.0";
-//        Configuration.browserVersion="94.0";
-//
-//        var caps = new DesiredCapabilities();
-//        var options = Map.of("enableVnc",true,"enableVideo",true);
-//        caps.setCapability("selenoid:options",options);
-//        Configuration.browserCapabilities = caps;
-//    }
 }

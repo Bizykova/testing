@@ -7,8 +7,6 @@ import static java.lang.Thread.sleep;
 
 public class CarParameters {
     public SelenideElement buttonSelectByOptions = $(".d-none.d-xl-block.text-right > a");
-
-
     public SelenideElement cityInput = $("#filter-city .sbl-filter-block__search-string");
     public SelenideElement cityElement = $(".sbl-filter-checkbox");
     public SelenideElement carMarkInput = $("#filter-mark .sbl-filter-block__search-string");
@@ -41,22 +39,6 @@ public class CarParameters {
         buttonCookie.click();
         actions().moveToElement(buttonShowAllOffers).click().perform();
 
-
-
-
-
-
-
-
-
-
-//        actions().moveToElement(cityEl).perform();
-//        carMarkInput.click();
-//        carMarkElement.setValue(carMark);
-//        carModelInput.click();
-//        carModelElement.setValue(carModel);
-
     }
-
 
 }
